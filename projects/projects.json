@@ -2,8 +2,8 @@
    {
     "name": "Vision Transformer",
     "desc": "Coded out Vision Transformer (ViT) from scratch in PyTorch and trained MNIST Dataset",
-    "image": "Transformer",
-    "category": "ML",
+    "category": "VisionTransformer",
+    "image": "VisionTransformer",
     "links": {
       "view": "https://github.com/JyothiNandhan/Visiontransformers",
       "code": "https://github.com/JyothiNandhan/Visiontransformers"
@@ -13,42 +13,45 @@
   {
     "name": "Digital Storytelling App Using AI",
     "desc": "Built an AI-driven storytelling system using natural language generation and reinforcement learning to generate coherent and engaging narratives.",
-    "image": "ai_storytelling",
-    "category": "ai",
+    "image": "Stories",
+    "category": "LLM",
     "links": {
       "view": "#",
       "code": "https://github.com/JyothiNandhan/AI-Storytelling"
     }
   },
+     {
+    "name": "XAI for Diabetic Retinopathy",
+    "desc": "Developed CNN, VGG, and Vision Transformer ,Swin Transformer models for diabetic retinopathy classification and integrated LIME for model interpretability and clinical decision support.",
+    "image": "XAI",
+    "category": "ml",
+    "links": {
+      "view": "https://github.com/JyothiNandhan/XAI_ACM_PROJECT",
+      "code": "https://github.com/JyothiNandhan/XAI_ACM_PROJECT"
+    }
+  },
   {
     "name": "Emotion Recognition System",
     "desc": "Implemented a CNN-LSTM-based speech emotion recognition system using MFCC and mel-spectrogram features with data augmentation for improved robustness.",
-    "image": "emotion_recognition",
+    "image": "Emotion_Recognition1",
     "category": "ml",
     "links": {
       "view": "https://github.com/JyothiNandhan/SpeechProcessing",
       "code": "https://github.com/JyothiNandhan/SpeechProcessing"
     }
   },
-  {
+    {
     "name": "QR-Code Authentication System",
     "desc": "Designed a QR-code-based  pipeline using Python and OpenCV to enable real-time authentication and automated email-based QR distribution.",
-    "image": "qr_authentication",
-    "category": "software",
+    "image": "QR-auth",
+    "category": "Software",
     "links": {
       "view": "#",
       "code": "https://github.com/JyothiNandhan/QR-Code-Authentication"
     }
-  },
-   {
-    "name": "XAI for Diabetic Retinopathy",
-    "desc": "Developed CNN, VGG, and Vision Transformer ,Swin Transformer models for diabetic retinopathy classification and integrated LIME for model interpretability and clinical decision support.",
-    "image": "diabetic_retinopathy_xai",
-    "category": "ml",
-    "links": {
-      "view": "https://github.com/JyothiNandhan/XAI_ACM_PROJECT",
-      "code": "https://github.com/JyothiNandhan/XAI_ACM_PROJECT"
-    }
   }
+  
+
+
 ]
 

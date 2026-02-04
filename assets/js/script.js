@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Y. Naga Siva Kumar";
+            document.title = "Portfolio | R.Jyothi Nandhan";
             $("#favicon").attr("/assets/images/favicon.png");
         }
         else {
