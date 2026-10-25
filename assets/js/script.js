@@ -59,8 +59,8 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | R.Jyothi Nandhan";
-            $("#favicon").attr("/assets/images/favicon.png");
+            document.title = "Portfolio | Jyothi Nandhan Repaka";
+            $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Machine Learning", "Software Development",  "web development"],
+    strings: ["Machine Learning", "Generative AI & LLMs", "Computer Vision", "Data Science", "Software Development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -107,7 +107,7 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+    projects.slice(0, 9).forEach(project => {
         projectHTML += `
         <div class="box tilt">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
@@ -246,6 +246,9 @@ srtop.reveal('.work .box', { interval: 200 });
 srtop.reveal('.experience .timeline', { delay: 400 });
 srtop.reveal('.experience .timeline .container', { interval: 400 });
 
+/* SCROLL ACHIEVEMENTS */
+srtop.reveal('.achievements .box', { interval: 200 });
+
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
-srtop.reveal('.contact .container .form-group', { delay: 400 });
+srtop.reveal('.contact .container .form-group', { delay: 400 });

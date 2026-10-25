@@ -710,6 +710,7 @@ header .navbar ul li a:hover {
 }
 .work .desc p {
   font-size: 1.5rem;
+  text-transform: none;
 }
 .work .desc .btns {
   display: flex;
@@ -862,6 +863,19 @@ header .navbar ul li a:hover {
 .experience .content .desc p {
   font-size: 1.2rem;
 }
+.experience .content .tag h2 {
+  font-size: 1.8rem;
+  padding-right: 1.5rem;
+}
+.experience .content .desc ul {
+  margin: 0.8rem 1.5rem 0 1.8rem;
+}
+.experience .content .desc li {
+  text-transform: none;
+  font-size: 1.35rem;
+  line-height: 1.5;
+  margin-bottom: 0.4rem;
+}
 /* view all button */
 .morebtn {
   display: flex;
@@ -935,6 +949,63 @@ header .navbar ul li a:hover {
 }
 /* experience media queries ends */
 /* experience section ends */
+
+/* achievements section starts */
+.achievements {
+  background: #e5ecfb;
+  min-height: 70vh;
+}
+.achievements .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 3rem 2rem;
+}
+.achievements .box {
+  flex: 1 1 26rem;
+  background: rgb(252, 252, 252);
+  border-radius: 0.5rem;
+  border-top: 0.5rem solid #ffd900;
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  transition: 0.3s;
+}
+.achievements .box:hover {
+  transform: scale(1.03);
+  box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
+}
+.achievements .box i {
+  font-size: 3rem;
+  color: rgb(115, 3, 167);
+}
+.achievements .box h3 {
+  font-size: 1.9rem;
+  color: #012970;
+  margin-top: 1rem;
+}
+.achievements .box h4 {
+  font-size: 1.5rem;
+  color: rgb(34, 109, 0);
+  font-family: "Nunito", sans-serif;
+  margin: 0.5rem 0 1rem;
+}
+.achievements .box p {
+  text-transform: none;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+.achievements .box a {
+  display: inline-block;
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2506ad;
+}
+.achievements .box a i {
+  font-size: 1.2rem;
+  color: inherit;
+}
+/* achievements section ends */
 
 /* contact section starts */
 .contact {
@@ -1228,4 +1299,4 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
-/* scroll top ends */
+/* scroll top ends */

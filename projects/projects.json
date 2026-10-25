@@ -1,28 +1,87 @@
 [
-   {
-    "name": "Vision Transformer",
-    "desc": "Coded out Vision Transformer (ViT) from scratch in PyTorch and trained MNIST Dataset",
-    "category": "VisionTransformer",
-    "image": "VisionTransformer",
-    "links": {
-      "view": "https://github.com/JyothiNandhan/Visiontransformers",
-      "code": "https://github.com/JyothiNandhan/Visiontransformers"
-    }
-  },
- 
   {
-    "name": "Digital Storytelling App Using AI",
-    "desc": "Built an AI-driven storytelling system using natural language generation and reinforcement learning to generate coherent and engaging narratives.",
-    "image": "Stories",
+    "name": "Mind Your Prompt 🏆",
+    "desc": "Winner, Assurant \"Take Control of AI\" Challenge at ShellHacks 2026. On-device PII detection for ChatGPT, Claude and Gemini chats using BERT NER plus rules, with a Snowflake Cortex RAG pipeline for cited policy answers.",
     "category": "LLM",
+    "image": "MindYourPrompt",
     "links": {
-      "view": "#",
-      "code": "https://github.com/JyothiNandhan/AI-Storytelling"
+      "view": "https://devpost.com/software/mind-your-prompt-prompt-shield",
+      "code": "https://github.com/krishnatejasai/ShellHacks_2026"
     }
   },
-     {
+  {
+    "name": "Quant Crucible 🏆",
+    "desc": "Winner, MLH Best Use of ElevenLabs at Gator Quant Hacks 2026. Pre-registered quant study of whether liquidity providers are paid most when market fear (VIX) peaks, with a locked out-of-sample test.",
+    "category": "ml",
+    "image": "QuantCrucible",
+    "links": {
+      "view": "https://devpost.com/software/velaris-w8cz1r",
+      "code": "https://github.com/Akashchalla/hacks"
+    }
+  },
+  {
+    "name": "MoneybackOS",
+    "desc": "Built for SwampHacks 2026. Finds savings in purchases you've already made: imports Capital One Nessie transactions, extracts receipts with Gemini, monitors price drops and tracks refund and warranty deadlines in one dashboard.",
+    "category": "Software",
+    "image": "MoneybackOS",
+    "links": {
+      "view": "https://swamp-hacks2026.vercel.app",
+      "code": "https://github.com/JyothiNandhan/SwampHacks2026"
+    }
+  },
+  {
+    "name": "OmniVec2 World Model",
+    "desc": "Research at UF's TEA Lab: a multimodal Masked Autoencoder and world model fusing camera and LiDAR on nuScenes in PyTorch, trained across GPUs on the HiPerGator SLURM cluster with auto-resuming checkpoints.",
+    "category": "ml",
+    "image": "OmniVec2",
+    "links": {
+      "view": "https://github.com/JyothiNandhan/Omnivec2_Worldmodel",
+      "code": "https://github.com/JyothiNandhan/Omnivec2_Worldmodel"
+    }
+  },
+  {
+    "name": "Gator Game Room Assistant",
+    "desc": "Agentic RAG assistant with a 4-route intent classifier and hybrid dense + BM25 retrieval, plus PII redaction, role-based access tiers and output guardrails. Passed 50/50 live LLM evaluation cases backed by a 127-test suite.",
+    "category": "LLM",
+    "image": "GameRoomAssistant",
+    "links": {
+      "view": "https://github.com/Roopsaicharan/Game_room_chatbot",
+      "code": "https://github.com/Roopsaicharan/Game_room_chatbot"
+    }
+  },
+  {
+    "name": "RecipeAI",
+    "desc": "Full-stack RAG recipe recommender: SentenceTransformer embeddings in ChromaDB, ingredient-aware filtering and re-ranking, and Llama 3.1 70B explanations generated in parallel via FastAPI, with an Angular 17 front end.",
+    "category": "LLM",
+    "image": "RecipeAI",
+    "links": {
+      "view": "https://recipe-ai-sooty.vercel.app",
+      "code": "https://github.com/JyothiNandhan/RecipeAI"
+    }
+  },
+  {
+    "name": "AI Freezer Inventory Counter",
+    "desc": "Mobile-first app where staff photograph a freezer and a vision-language model (NVIDIA NIM) counts every product, compares against the last scan to compute units sold and restock urgency, and sends a WhatsApp report.",
+    "category": "ml",
+    "image": "IceCreamCounter",
+    "links": {
+      "view": "https://github.com/JyothiNandhan/Ice-Cream-counter",
+      "code": "https://github.com/JyothiNandhan/Ice-Cream-counter"
+    }
+  },
+  {
+    "name": "NANO-VLM",
+    "desc": "A lightweight vision-language model built from scratch in PyTorch: CNN image encoder and text encoder trained with a CLIP-style contrastive loss on a synthetic dataset, supporting text-to-image retrieval.",
+    "category": "ml",
+    "image": "NanoVLM",
+    "links": {
+      "view": "https://github.com/JyothiNandhan/VLM",
+      "code": "https://github.com/JyothiNandhan/VLM"
+    }
+  },
+  {
     "name": "XAI for Diabetic Retinopathy",
-    "desc": "Developed CNN, VGG, and Vision Transformer ,Swin Transformer models for diabetic retinopathy classification and integrated LIME for model interpretability and clinical decision support.",
+    "desc": "Developed CNN, VGG, Vision Transformer and Swin Transformer models for diabetic retinopathy classification and integrated LIME for model interpretability and clinical decision support.",
     "image": "XAI",
     "category": "ml",
     "links": {
@@ -40,18 +99,44 @@
       "code": "https://github.com/JyothiNandhan/SpeechProcessing"
     }
   },
-    {
+  {
+    "name": "Vision Transformer",
+    "desc": "Implemented a Vision Transformer (ViT) from scratch in PyTorch and trained it on the MNIST dataset.",
+    "category": "VisionTransformer",
+    "image": "VisionTransformer",
+    "links": {
+      "view": "https://github.com/JyothiNandhan/Visiontransformers",
+      "code": "https://github.com/JyothiNandhan/Visiontransformers"
+    }
+  },
+  {
+    "name": "Volleyball Team Manager",
+    "desc": "Cross-platform Expo / React Native app with Supabase auth and row-level security, player management, and a balanced team generator using snake-draft distribution plus pairwise swap optimization, with PDF export.",
+    "category": "Software",
+    "image": "Volleyball",
+    "links": {
+      "view": "https://github.com/JyothiNandhan/volleyball-team-manager",
+      "code": "https://github.com/JyothiNandhan/volleyball-team-manager"
+    }
+  },
+  {
+    "name": "Digital Storytelling App Using AI",
+    "desc": "Built an AI-driven storytelling system using natural language generation and reinforcement learning to generate coherent and engaging narratives.",
+    "image": "Stories",
+    "category": "LLM",
+    "links": {
+      "view": "https://github.com/JyothiNandhan/AI-Storytelling",
+      "code": "https://github.com/JyothiNandhan/AI-Storytelling"
+    }
+  },
+  {
     "name": "QR-Code Authentication System",
-    "desc": "Designed a QR-code-based  pipeline using Python and OpenCV to enable real-time authentication and automated email-based QR distribution.",
+    "desc": "Designed a QR-code-based pipeline using Python and OpenCV to enable real-time authentication and automated email-based QR distribution.",
     "image": "QR-auth",
     "category": "Software",
     "links": {
-      "view": "#",
+      "view": "https://github.com/JyothiNandhan/QR-Code-Authentication",
       "code": "https://github.com/JyothiNandhan/QR-Code-Authentication"
     }
   }
-  
-
-
 ]
-

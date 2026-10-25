@@ -1,83 +1,134 @@
 [
-    
   {
     "name": "Python",
     "icon": "https://img.icons8.com/color/48/python.png"
   },
-  {
-    "name": "TensorFlow",
-    "icon": "https://img.icons8.com/color/48/tensorflow.png"
-  },
-  {
-  "name": "PyTorch",
-  "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
-    },
-
   {
     "name": "Machine Learning",
     "icon": "https://img.icons8.com/color/48/artificial-intelligence.png"
   },
   {
     "name": "Deep Learning",
-    "icon": "https://img.icons8.com/color/48/neural-network.png"
+    "icon": "https://img.icons8.com/fluency/48/artificial-intelligence.png"
+  },
+  {
+    "name": "Generative AI & LLMs",
+    "icon": "https://img.icons8.com/color/48/chatgpt.png"
+  },
+  {
+    "name": "RAG & Agentic AI",
+    "icon": "https://img.icons8.com/color/48/bot.png"
+  },
+  {
+    "name": "NLP",
+    "icon": "https://img.icons8.com/fluency/48/language.png"
   },
   {
     "name": "Computer Vision",
     "icon": "https://img.icons8.com/color/48/opencv.png"
   },
-
-  { "name": "Speech  Recognition", 
-    "icon": "https://img.icons8.com/color/48/microphone.png" 
-  },
-
-  { "name": "Explainable AI", 
-    "icon": "https://img.icons8.com/color/48/brain.png" 
-  },
-  
   {
-    "name": "NLP",
-    "icon": "https://img.icons8.com/color/48/chatbot.png"
+    "name": "Speech Recognition",
+    "icon": "https://img.icons8.com/color/48/microphone.png"
+  },
+  {
+    "name": "Explainable AI",
+    "icon": "https://img.icons8.com/color/48/brain.png"
+  },
+  {
+    "name": "PyTorch",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+  },
+  {
+    "name": "TensorFlow",
+    "icon": "https://img.icons8.com/color/48/tensorflow.png"
+  },
+  {
+    "name": "LangChain",
+    "icon": "https://img.icons8.com/color/48/parrot.png"
+  },
+  {
+    "name": "scikit-learn",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+  },
+  {
+    "name": "Pandas",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+  },
+  {
+    "name": "NumPy",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+  },
+  {
+    "name": "SQL",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+  },
+  {
+    "name": "MySQL",
+    "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+  },
+  {
+    "name": "Apache Spark",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg"
+  },
+  {
+    "name": "Snowflake",
+    "icon": "https://img.icons8.com/color/48/snowflake.png"
+  },
+  {
+    "name": "FastAPI",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
   },
   {
     "name": "Docker",
     "icon": "https://img.icons8.com/color/48/docker.png"
   },
   {
+    "name": "Linux",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+  },
+  {
     "name": "AWS",
     "icon": "https://img.icons8.com/color/48/amazon-web-services.png"
   },
-
   {
-        "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
-    },
-    {
-        "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-    },
-    {
-        "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-     
-    {
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-    },
-    {
-        "name": "Netlify",
-        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
-    },
-    {
-        "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
-    },
-    {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    }   
+    "name": "Azure",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+  },
+  {
+    "name": "React / Next.js",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+  },
+  {
+    "name": "HTML5",
+    "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+  },
+  {
+    "name": "CSS3",
+    "icon": "https://img.icons8.com/color/48/000000/css3.png"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+  },
+  {
+    "name": "Netlify",
+    "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+  },
+  {
+    "name": "Git VCS",
+    "icon": "https://img.icons8.com/color/48/000000/git.png"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+  }
 ]
